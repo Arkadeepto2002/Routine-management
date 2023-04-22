@@ -8,8 +8,8 @@
 <body>
 	<h1>Routine Management</h1>
 
-	<table class="table table-bordered table-striped table-responsive-md">
-		<tr>
+	<table class="table table-responsive-md">
+		<tr class = "header">
 			<th>Day</th>
 			<th>Period 1</th>
 			<th>Period 2</th>
@@ -20,6 +20,7 @@
 			<th>Period 7</th>
 			<th>Period 8</th>
 		</tr>
+		<tbody>
 		<tr>
 			<td>Monday</td>
 			<td	class="period" id="mon-p1" onclick="editPeriod('mon-p1')">Maths</td>
@@ -32,6 +33,17 @@
 			<td	class="period" id="mon-p8" onclick="editPeriod('mon-p8')">PE</td>
 		</tr>
 		<tr>
+			<td>Faculty</td>
+			<td	class="period" id="fac-mon-p1" onclick="editPeriod('fac-mon-p1')">Maths</td>
+			<td	class="period" id="fac-mon-p2" onclick="editPeriod('fac-mon-p2')">English</td>
+			<td	class="period" id="fac-mon-p3" onclick="editPeriod('fac-mon-p3')">Science</td>
+			<td	class="period" id="fac-mon-p4" onclick="editPeriod('fac-mon-p4')">History</td>
+			<td	class="period" id="fac-mon-p5" onclick="editPeriod('fac-mon-p5')">Geography</td>
+			<td	class="period" id="fac-mon-p6" onclick="editPeriod('fac-mon-p6')">Art</td>
+			<td	class="period" id="fac-mon-p7" onclick="editPeriod('fac-mon-p7')">Music</td>
+			<td	class="period" id="fac-mon-p8" onclick="editPeriod('fac-mon-p8')">PE</td>
+		</tr>
+		<tr class="odd">
 			<td>Tuesday</td>
 			<td class="period" id="tue-p1" onclick="editPeriod('tue-p1')">English</td>
 			<td class="period" id="tue-p2" onclick="editPeriod('tue-p2')">Science</td>
@@ -42,6 +54,17 @@
 			<td class="period" id="tue-p7" onclick="editPeriod('tue-p7')">Music</td>
 			<td class="period" id="tue-p8" onclick="editPeriod('tue-p8')">PE</td>
         </tr>
+		<tr class="odd">
+			<td>Faculty</td>
+			<td	class="period" id="fac-tue-p1" onclick="editPeriod('fac-tue-p1')">Maths</td>
+			<td	class="period" id="fac-tue-p2" onclick="editPeriod('fac-tue-p2')">English</td>
+			<td	class="period" id="fac-tue-p3" onclick="editPeriod('fac-tue-p3')">Science</td>
+			<td	class="period" id="fac-tue-p4" onclick="editPeriod('fac-tue-p4')">History</td>
+			<td	class="period" id="fac-tue-p5" onclick="editPeriod('fac-tue-p5')">Geography</td>
+			<td	class="period" id="fac-tue-p6" onclick="editPeriod('fac-tue-p6')">Art</td>
+			<td	class="period" id="fac-tue-p7" onclick="editPeriod('fac-tue-p7')">Music</td>
+			<td	class="period" id="fac-tue-p8" onclick="editPeriod('fac-tue-p8')">PE</td>
+		</tr>
         <tr>
 			<td>Wednesday</td>
 			<td class="period" id="wed-p1" onclick="editPeriod('wed-p1')">Science</td>
@@ -54,6 +77,17 @@
 			<td class="period" id="wed-p8" onclick="editPeriod('wed-p8')">English</td>
 		</tr>
 		<tr>
+			<td>Faculty</td>
+			<td	class="period" id="fac-wed-p1" onclick="editPeriod('fac-wed-p1')">Maths</td>
+			<td	class="period" id="fac-wed-p2" onclick="editPeriod('fac-wed-p2')">English</td>
+			<td	class="period" id="fac-wed-p3" onclick="editPeriod('fac-wed-p3')">Science</td>
+			<td	class="period" id="fac-wed-p4" onclick="editPeriod('fac-wed-p4')">History</td>
+			<td	class="period" id="fac-wed-p5" onclick="editPeriod('fac-wed-p5')">Geography</td>
+			<td	class="period" id="fac-wed-p6" onclick="editPeriod('fac-wed-p6')">Art</td>
+			<td	class="period" id="fac-wed-p7" onclick="editPeriod('fac-wed-p7')">Music</td>
+			<td	class="period" id="fac-wed-p8" onclick="editPeriod('fac-wed-p8')">PE</td>
+		</tr>
+		<tr class="odd">
 			<td>Thursday</td>
 			<td class="period" id="thu-p1" onclick="editPeriod('thu-p1')">History</td>
 			<td class="period" id="thu-p2" onclick="editPeriod('thu-p2')">Geography</td>
@@ -63,6 +97,17 @@
 			<td class="period" id="thu-p6" onclick="editPeriod('thu-p6')">PE</td>
 			<td class="period" id="thu-p7" onclick="editPeriod('thu-p7')">Music</td>
 			<td class="period" id="thu-p8" onclick="editPeriod('thu-p8')">Art</td>
+		</tr>
+		<tr class="odd">
+			<td>Faculty</td>
+			<td	class="period" id="fac-thu-p1" onclick="editPeriod('fac-thu-p1')">Maths</td>
+			<td	class="period" id="fac-thu-p2" onclick="editPeriod('fac-thu-p2')">English</td>
+			<td	class="period" id="fac-thu-p3" onclick="editPeriod('fac-thu-p3')">Science</td>
+			<td	class="period" id="fac-thu-p4" onclick="editPeriod('fac-thu-p4')">History</td>
+			<td	class="period" id="fac-thu-p5" onclick="editPeriod('fac-thu-p5')">Geography</td>
+			<td	class="period" id="fac-thu-p6" onclick="editPeriod('fac-thu-p6')">Art</td>
+			<td	class="period" id="fac-thu-p7" onclick="editPeriod('fac-thu-p7')">Music</td>
+			<td	class="period" id="fac-thu-p8" onclick="editPeriod('fac-thu-p8')">PE</td>
 		</tr>
 		<tr>
 			<td>Friday</td>
@@ -75,6 +120,18 @@
 			<td class="period" id="fri-p7" onclick="editPeriod('fri-p7')">Music</td>
 			<td class="period" id="fri-p8" onclick="editPeriod('fri-p8')">Science</td>
 		</tr>
+		<tr>
+			<td>Faculty</td>
+			<td	class="period" id="fac-thu-p1" onclick="editPeriod('fac-thu-p1')">Maths</td>
+			<td	class="period" id="fac-thu-p2" onclick="editPeriod('fac-thu-p2')">English</td>
+			<td	class="period" id="fac-thu-p3" onclick="editPeriod('fac-thu-p3')">Science</td>
+			<td	class="period" id="fac-thu-p4" onclick="editPeriod('fac-thu-p4')">History</td>
+			<td	class="period" id="fac-thu-p5" onclick="editPeriod('fac-thu-p5')">Geography</td>
+			<td	class="period" id="fac-thu-p6" onclick="editPeriod('fac-thu-p6')">Art</td>
+			<td	class="period" id="fac-thu-p7" onclick="editPeriod('fac-thu-p7')">Music</td>
+			<td	class="period" id="fac-thu-p8" onclick="editPeriod('fac-thu-p8')">PE</td>
+		</tr>
+		</tbody>
 	</table>
 
 	<!-- Modal for editing a period -->
